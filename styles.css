@@ -1,0 +1,38 @@
+
+.grandparent {
+    background-color: hsl(0,50%,50%);
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    margin: auto;
+    border: 10px solid blue;
+   
+    
+}
+.parent {
+    background-color: hsl(100,50%,50%);
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    padding: 5%;
+    border: 10px solid yellow;
+    overflow:auto;
+    width: 100%;
+    display: flex;
+}
+.child {
+    background-color:hsl(200,50%,50%);
+   
+    
+    margin: auto;
+    padding: 2%;
+    border: 15px solid green;
+    flex:50%;
+
+
+}
+
+  
+  
+
+
