@@ -1,22 +1,24 @@
-p{
-    background-color: rgb(240, 248, 255);
-    font-style: italic;
-    color: blue;
+p {
+  background-color: rgb(240, 248, 255);
+  font-style: italic;
+  color: blue;
 }
-#container-id{
-
-    background-color: bisque;
-    flex-direction: column;
-    width: 50%;
-    -moz-box-align: baseline;
-    align-items: center;
-    align-self: auto;
-
+.container {
+  display: flex;
+  flex-direction: column;
+}
+#container-id {
+  background-color: bisque;
+  flex-direction: column;
+  width: 50%;
+  -moz-box-align: baseline;
+  align-items: center;
+  align-self: auto;
 }
 /* .container{
     background-color: blueviolet;
 } */
 
-#increment-btn{
-    background-color: aquamarine;
+#increment-btn {
+  background-color: aquamarine;
 }

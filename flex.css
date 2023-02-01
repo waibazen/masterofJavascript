@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    border: 20px cornflowerblue;
+    
+    height: 400px;
+    width: 80%;
+     /* flex-direction: column;  */
+   justify-content: space-evenly;
+   align-items: left;
+    border: 10px solid pink;
+    border-radius: 10px;
+    margin:0 auto;
+
+
+    /* flex-wrap: wrap; */
+   
+}
+
+.item{
+
+   font-size: large; 
+   width: 100px;
+   height: 100px;
+   color: pink;
+   margin: 3px;
+  background-color: rgb(94, 86, 131);
+  padding: 1em;
+  /* flex-wrap: nowrap; */
+  
+}
+.item-1{
+    /* flex-grow: 1;   */
+/* flex-shrink: 5;    */
+
+
+
+ /* flex:1;  */
+/* align-self: flex-start; */
+}
